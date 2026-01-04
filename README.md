@@ -1,6 +1,6 @@
 # DataScouteR <img src="man/figures/logo.png" align="right" height="139" />
 
-**scouteR** is an R package for football scouting and player evaluation, providing **league-adjusted, position-specific ratings** derived from publicly available data and scaled for **intuitive interpretation**.
+**DataScouteR** is an R package for football scouting and player evaluation, providing **league-adjusted, position-specific ratings** derived from publicly available data and scaled for **intuitive interpretation**.
 
 The package is designed to offer a clean, ready-to-use interface for analysts, researchers, and practitioners who want access to **processed scouting outputs**, without needing to run complex models themselves.
 
@@ -18,6 +18,17 @@ The emphasis is on **interpretability, robustness, and comparability across leag
 
 ---
 
+## Installation
+
+You can install the package directly from GitHub:
+
+```r
+install.packages("remotes")
+remotes::install_github("machoude/DataScouteR", subdir = "DataScouteR")
+```
+
+---
+
 ## Data Source
 
 All underlying match and event-level statistics are sourced from:
@@ -25,7 +36,7 @@ All underlying match and event-level statistics are sourced from:
 - **FBref** (powered by StatsBomb data, where applicable)
 
 FBref provides high-quality, publicly accessible football statistics.  
-`scouteR` uses these data as inputs but **does not redistribute raw FBref datasets**.
+`DataScouteR` uses these data as inputs but **does not redistribute raw FBref datasets**.
 
 ---
 
@@ -59,11 +70,3 @@ This makes the results more accessible for:
 
 ---
 
-## Installation
-
-You can install the package directly from GitHub:
-
-```r
-install.packages("remotes")
-remotes::install_github("machoude/DataScouteR", subdir = "scouteR")
-```

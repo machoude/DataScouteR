@@ -1,0 +1,9 @@
+utils::globalVariables(c(
+  "ShotStopping",
+  "Passing",
+  "CrossStopping",
+  "Sweeper",
+  "Weight",
+  "Division",
+  "gk"
+))

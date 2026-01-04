@@ -14,13 +14,13 @@ Description: This package provides a 1-20 rating system for players
 Imports: 
     dplyr,
     magrittr,
-    tibble,
-    readODS
+    tibble
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 Suggests: 
     knitr,
+    readODS,
     rmarkdown
 VignetteBuilder: knitr
 RoxygenNote: 7.3.3

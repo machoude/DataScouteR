@@ -1,4 +1,4 @@
-# scouteR
+# DataScouteR
 
 **scouteR** is an R package for football scouting and player evaluation, providing **league-adjusted, position-specific ratings** derived from publicly available data and scaled for **intuitive interpretation**.
 
@@ -8,7 +8,7 @@ The package is designed to offer a clean, ready-to-use interface for analysts, r
 
 ## Overview
 
-At its core, `scouteR` provides precomputed player ratings that:
+At its core, `DataScouteR` provides precomputed player ratings that:
 
 - Are **league-adjusted** to account for competition difficulty  
 - Incorporate **filtering** to not include players with limited minutes  
@@ -65,5 +65,5 @@ You can install the package directly from GitHub:
 
 ```r
 install.packages("remotes")
-remotes::install_github("yourusername/your-repo", subdir = "scouteR")
+remotes::install_github("machoude/DataScouteR", subdir = "scouteR")
 ```

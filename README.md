@@ -1,4 +1,4 @@
-# DataScouteR
+# DataScouteR <img src="man/figures/logo.png" align="right" height="139" />
 
 **scouteR** is an R package for football scouting and player evaluation, providing **league-adjusted, position-specific ratings** derived from publicly available data and scaled for **intuitive interpretation**.
 

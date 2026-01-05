@@ -152,6 +152,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#data-source" id="toc-data-source" class="nav-link" data-scroll-target="#data-source">Data Source</a></li>
   <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
   <li><a href="#why-a-120-scale" id="toc-why-a-120-scale" class="nav-link" data-scroll-target="#why-a-120-scale">Why a 1–20 Scale?</a></li>
+  <li><a href="#interpreting-the-metrics" id="toc-interpreting-the-metrics" class="nav-link" data-scroll-target="#interpreting-the-metrics">Interpreting the Metrics</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -229,9 +230,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="why-a-120-scale" class="level2">
 <h2 class="anchored" data-anchor-id="why-a-120-scale">Why a 1–20 Scale?</h2>
-<p>The 1–20 scale: - Preserves <strong>relative differences</strong> between players - Compresses extreme values smoothly - Allows quick qualitative interpretation (e.g.&nbsp;<em>elite</em>, <em>above average</em>, <em>poor</em>)</p>
-<p>This makes the results more accessible for: - Scouting discussions - Player profiling - Comparative analysis across leagues</p>
+<p>The 1–20 scale:</p>
+<ul>
+<li>Preserves <strong>relative differences</strong> between players</li>
+<li>Compresses extreme values smoothly</li>
+<li>Allows quick qualitative interpretation (e.g.&nbsp;<em>elite</em>, <em>above average</em>, <em>poor</em>)</li>
+</ul>
+<p>This makes the results more accessible for:</p>
+<ul>
+<li>Scouting discussions</li>
+<li>Player profiling</li>
+<li>Comparative analysis across leagues</li>
+</ul>
 <hr>
+</section>
+<section id="interpreting-the-metrics" class="level2">
+<h2 class="anchored" data-anchor-id="interpreting-the-metrics">Interpreting the Metrics</h2>
+<p>The ratings in DataScouteR are scaled from 1 to 20 FM-style for easier comparison. A player’s score shows how well they performed this season, relative to other players in the dataset.</p>
+<p>For example, if a goalkeeper has a 16 in ShotStopping while Alisson has 8, it does not mean the player is generally better than Alisson. It only indicates that, in the current season, this player performed better in shot-stopping relative to the other goalkeepers in the dataset.</p>
+<p>This scale is designed for seasonal comparison, not historical ranking. High numbers mean above-average performance this year, while lower numbers indicate below-average performance for the same season.</p>
 
 
 </section>

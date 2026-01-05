@@ -18,6 +18,7 @@ The emphasis is on **interpretability, robustness, and comparability across leag
 
 The goal of the package is to find the players that performing better than the rest of the 
 players of the same position.
+
 ---
 
 ## Installation

@@ -4,6 +4,7 @@
 
 The package is designed to offer a clean, ready-to-use interface for analysts, researchers, and practitioners who want access to **processed scouting outputs**, without needing to run complex models themselves.
 
+Currently supports **goalkeepers**.
 ---
 
 ## Overview
@@ -28,6 +29,14 @@ You can install the package directly from GitHub:
 ```r
 install.packages("remotes")
 remotes::install_github("machoude/DataScouteR", subdir = "DataScouteR")
+```
+
+For goalkeepers :
+
+```r
+library(DataScouteR)
+gk <- get_gk()
+head(gk)
 ```
 
 ---

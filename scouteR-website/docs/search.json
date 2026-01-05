@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "index.html#installation",
+    "href": "index.html#installation",
+    "title": "DataScouteR",
+    "section": "Installation",
+    "text": "Installation\n# install.packages(\"remotes\")\n# remotes::install_github(\"machoude/DataScouteR\")"
+  },
+  {
+    "objectID": "index.html#goalkeepers",
+    "href": "index.html#goalkeepers",
+    "title": "DataScouteR",
+    "section": "Goalkeepers",
+    "text": "Goalkeepers\nlibrary(DataScouteR)\ngk &lt;- get_gk()\nhead(gk)"
+  },
+  {
+    "objectID": "index.html#data-source",
+    "href": "index.html#data-source",
+    "title": "DataScouteR",
+    "section": "Data Source",
+    "text": "Data Source\nAll underlying match and event-level statistics are sourced from:\n\nFBref (powered by StatsBomb data, where applicable)\n\nFBref provides high-quality, publicly accessible football statistics.\nDataScouteR uses these data as inputs but does not redistribute raw FBref datasets."
+  },
+  {
+    "objectID": "index.html#methodology",
+    "href": "index.html#methodology",
+    "title": "DataScouteR",
+    "section": "Methodology",
+    "text": "Methodology\nThe workflow behind the package follows these principles:\n\nPlayer performance metrics are modeled using z-scores and logistic mapping\nPlayer-level effects are filtered to reduce noise from small samples\nLeague-level effects are included to implicitly account for competition strength\nFinal latent ability estimates are transformed to a 1–20 scale using a smooth, monotonic mapping\n\nThis scaling is not intended to replicate Football Manager internally, but rather to:\n\nProvide a familiar reference frame\nImprove interpretability for practitioners"
+  },
+  {
+    "objectID": "index.html#why-a-120-scale",
+    "href": "index.html#why-a-120-scale",
+    "title": "DataScouteR",
+    "section": "Why a 1–20 Scale?",
+    "text": "Why a 1–20 Scale?\nThe 1–20 scale:\n\nPreserves relative differences between players\nCompresses extreme values smoothly\nAllows quick qualitative interpretation (e.g. elite, above average, poor)\n\nThis makes the results more accessible for:\n\nScouting discussions\nPlayer profiling\nComparative analysis across leagues"
+  },
+  {
+    "objectID": "index.html#interpreting-the-metrics",
+    "href": "index.html#interpreting-the-metrics",
+    "title": "DataScouteR",
+    "section": "Interpreting the Metrics",
+    "text": "Interpreting the Metrics\nThe ratings in DataScouteR are scaled from 1 to 20 FM-style for easier comparison. A player’s score shows how well they performed this season, relative to other players in the dataset.\nFor example, if a goalkeeper has a 16 in ShotStopping while Alisson has 8, it does not mean the player is generally better than Alisson. It only indicates that, in the current season, this player performed better in shot-stopping relative to the other goalkeepers in the dataset.\nThis scale is designed for seasonal comparison, not historical ranking. High numbers mean above-average performance this year, while lower numbers indicate below-average performance for the same season."
+  }
+]

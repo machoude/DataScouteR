@@ -81,3 +81,14 @@ This makes the results more accessible for:
 - Comparative analysis across leagues
 
 ---
+
+## Interpreting the Metrics
+
+The ratings in DataScouteR are scaled from 1 to 20 FM-style for easier comparison. 
+A player’s score shows how well they performed this season, relative to other players in the dataset.
+
+For example, if a goalkeeper has a 16 in ShotStopping while Alisson has 8, it does not mean the player is generally better than Alisson. 
+It only indicates that, in the current season, this player performed better in shot-stopping relative to the other goalkeepers in the dataset.
+
+This scale is designed for seasonal comparison, not historical ranking. High numbers mean above-average performance this year, 
+while lower numbers indicate below-average performance for the same season.

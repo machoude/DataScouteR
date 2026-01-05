@@ -28,8 +28,8 @@ interface to access precomputed scouting data.
 The package can be installed directly from GitHub:
 
 ```{r}
-install.packages("remotes")
-remotes::install_github("machoude/DataScouteR", subdir = "DataScouteR")
+# install.packages("remotes")
+# remotes::install_github("machoude/DataScouteR")
 ```
 
 ##  Loading the package

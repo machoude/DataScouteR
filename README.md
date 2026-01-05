@@ -40,7 +40,7 @@ FBref provides high-quality, publicly accessible football statistics.
 
 ---
 
-## Methodology (High-Level)
+## Methodology
 
 The workflow behind the package follows these principles:
 
@@ -62,6 +62,7 @@ The 1–20 scale:
 - Preserves **relative differences** between players
 - Compresses extreme values smoothly
 - Allows quick qualitative interpretation (e.g. *elite*, *above average*, *poor*)
+
 
 This makes the results more accessible for:
 - Scouting discussions

@@ -1,21 +1,12 @@
-#' @importFrom utils data
 #' Get goalkeeper scouting data
 #'
-#' Returns Football Manager–style (1–20) ratings for goalkeepers,
-#' adjusted for league difficulty and playing time.
+#' Returns goalkeeper scouting metrics scaled to Football Manager–style
+#' ratings (1–20) for easier interpretation.
 #'
-#' @param division Optional character vector of divisions to filter
-#'
-#' @return A tibble of goalkeeper ratings
+#' @return A data frame with goalkeeper performance metrics.
+#' @importFrom utils data
 #' @export
-get_gk <- function(division = NULL) {
-
-  data("gk", package = "DataScouteR", envir = environment())
-
-  out <- gk
-
-  if (!is.null(division)) {
-    out <- dplyr::filter(out, Division %in% division)
-  }
-
+get_gk <- function() {
+  data("gk", package = "DataScouteR")
+  gk
 }

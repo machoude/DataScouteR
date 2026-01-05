@@ -1,0 +1,70 @@
+---
+title: "DataScouteR"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{DataScouteR}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Introduction
+
+DataScouteR is an R package for football scouting and player evaluation.
+It provides Football Manager–style (1–20) ratings derived from advanced
+performance metrics, scaled for intuitive interpretation.
+
+The current version focuses on goalkeepers, offering a clean and simple
+interface to access precomputed scouting data.
+
+## Installation
+
+The package can be installed directly from GitHub:
+
+```{r}
+install.packages("remotes")
+remotes::install_github("machoude/DataScouteR", subdir = "DataScouteR")
+```
+
+##  Loading the package
+
+
+```{r setup}
+library(DataScouteR)
+```
+
+## Goalkeeper scouting data
+
+Goalkeeper data can be accessed using the `get_gk()` function.
+
+```{r}
+gk <- get_gk()
+head(gk)
+```
+
+## Interpreting the ratings
+
+All performance metrics are scaled to a 1–20 range, similar to Football
+Manager ratings, for easier interpretation.
+
+A value around 10 represents an average performance level, while values
+above 12 indicate above-average quality for the given role. Higher values
+reflect stronger relative performance, adjusted across leagues and
+competitions.
+
+## Data source
+
+The underlying performance data are sourced from FBref.
+Metrics are processed, standardized, and rescaled for scouting purposes.
+DataScouteR is not affiliated with FBref.
+
+## Future development
+
+Future versions of DataScouteR will expand coverage to additional
+positions, following the same interface and design principles.

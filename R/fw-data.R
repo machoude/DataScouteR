@@ -1,0 +1,24 @@
+#' Forward performance data
+#'
+#' Season-level performance metrics for forwards,
+#' scaled to a 1–20 format for interpretability.
+#'
+#' @format A data.frame with columns:
+#' \describe{
+#'   \item{Player}{Forward name}
+#'   \item{Division}{League division}
+#'   \item{Squad}{Club}
+#'   \item{Pos}{Position}
+#'   \item{Age}{Age}
+#'   \item{MatchesPlayed}{Number of matches played}
+#'   \item{Creativity}{Shot and Goal creations actions}
+#'   \item{Passing}{Completed passes}
+#'   \item{Assisting}{Assist , xA and xAG}
+#'   \item{AttPassing}{Passes for attackign play}
+#'   \item{AdvancedTouches}{Touches in the oppistion's area}
+#'   \item{Dribbling}{Completed Dribbles}
+#'   \item{Progression}{Progression actions to a attacking play}
+#'   \item{ShootAcc}{Shooting Accuracy}
+#'   \item{Scoring}{Scoring abilities}
+#' }
+"fw"

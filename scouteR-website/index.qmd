@@ -15,7 +15,7 @@ format: html
 
 The package is designed to offer a clean, ready-to-use interface for analysts, researchers, and practitioners who want access to **processed scouting outputs**, without needing to run complex models themselves.
 
-Currently supports **goalkeepers**.
+Currently supports **goalkeepers** and **forwards**.
 
 ---
 
@@ -27,12 +27,15 @@ Currently supports **goalkeepers**.
 ```
 ---
 
-## Goalkeepers
+## Players
 
 ```r
 library(DataScouteR)
 gk <- get_gk()
 head(gk)
+
+fw <- get_fw()
+head(fw)
 ```
 
 ---
@@ -41,7 +44,7 @@ head(gk)
 
 All underlying match and event-level statistics are sourced from:
 
-- **FBref** (powered by StatsBomb data, where applicable)
+- **FBref** 
 
 FBref provides high-quality, publicly accessible football statistics.  
 `DataScouteR` uses these data as inputs but **does not redistribute raw FBref datasets**.

@@ -148,7 +148,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#welcome-to-datascouter" id="toc-welcome-to-datascouter" class="nav-link active" data-scroll-target="#welcome-to-datascouter">Welcome to DataScouteR</a>
   <ul class="collapse">
   <li><a href="#installation" id="toc-installation" class="nav-link" data-scroll-target="#installation">Installation</a></li>
-  <li><a href="#goalkeepers" id="toc-goalkeepers" class="nav-link" data-scroll-target="#goalkeepers">Goalkeepers</a></li>
+  <li><a href="#players" id="toc-players" class="nav-link" data-scroll-target="#players">Players</a></li>
   <li><a href="#data-source" id="toc-data-source" class="nav-link" data-scroll-target="#data-source">Data Source</a></li>
   <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
   <li><a href="#why-a-120-scale" id="toc-why-a-120-scale" class="nav-link" data-scroll-target="#why-a-120-scale">Why a 1–20 Scale?</a></li>
@@ -187,26 +187,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1>Welcome to DataScouteR</h1>
 <p><strong>DataScouteR</strong> is an R package for football scouting and player evaluation, providing <strong>league-adjusted, position-specific ratings</strong> derived from publicly available data and scaled for <strong>intuitive interpretation</strong>.</p>
 <p>The package is designed to offer a clean, ready-to-use interface for analysts, researchers, and practitioners who want access to <strong>processed scouting outputs</strong>, without needing to run complex models themselves.</p>
-<p>Currently supports <strong>goalkeepers</strong>.</p>
+<p>Currently supports <strong>goalkeepers</strong> and <strong>forwards</strong>.</p>
 <hr>
 <section id="installation" class="level2">
 <h2 class="anchored" data-anchor-id="installation">Installation</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># install.packages("remotes")</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="co"># remotes::install_github("machoude/DataScouteR")</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"remotes"</span>)</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"machoude/DataScouteR"</span>, <span class="at">subdir =</span> <span class="st">"DataScouteR"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <hr>
 </section>
-<section id="goalkeepers" class="level2">
-<h2 class="anchored" data-anchor-id="goalkeepers">Goalkeepers</h2>
+<section id="players" class="level2">
+<h2 class="anchored" data-anchor-id="players">Players</h2>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(DataScouteR)</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>gk <span class="ot">&lt;-</span> <span class="fu">get_gk</span>()</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(gk)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(gk)</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>fw <span class="ot">&lt;-</span> <span class="fu">get_fw</span>()</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(fw)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <hr>
 </section>
 <section id="data-source" class="level2">
 <h2 class="anchored" data-anchor-id="data-source">Data Source</h2>
 <p>All underlying match and event-level statistics are sourced from:</p>
 <ul>
-<li><strong>FBref</strong> (powered by StatsBomb data, where applicable)</li>
+<li><strong>FBref</strong></li>
 </ul>
 <p>FBref provides high-quality, publicly accessible football statistics.<br>
 <code>DataScouteR</code> uses these data as inputs but <strong>does not redistribute raw FBref datasets</strong>.</p>

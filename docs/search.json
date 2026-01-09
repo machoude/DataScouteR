@@ -4,21 +4,21 @@
     "href": "index.html#installation",
     "title": "DataScouteR",
     "section": "Installation",
-    "text": "Installation\n# install.packages(\"remotes\")\n# remotes::install_github(\"machoude/DataScouteR\")"
+    "text": "Installation\ninstall.packages(\"remotes\")\nremotes::install_github(\"machoude/DataScouteR\", subdir = \"DataScouteR\")"
   },
   {
-    "objectID": "index.html#goalkeepers",
-    "href": "index.html#goalkeepers",
+    "objectID": "index.html#players",
+    "href": "index.html#players",
     "title": "DataScouteR",
-    "section": "Goalkeepers",
-    "text": "Goalkeepers\nlibrary(DataScouteR)\ngk &lt;- get_gk()\nhead(gk)"
+    "section": "Players",
+    "text": "Players\nlibrary(DataScouteR)\ngk &lt;- get_gk()\nhead(gk)\n\nfw &lt;- get_fw()\nhead(fw)"
   },
   {
     "objectID": "index.html#data-source",
     "href": "index.html#data-source",
     "title": "DataScouteR",
     "section": "Data Source",
-    "text": "Data Source\nAll underlying match and event-level statistics are sourced from:\n\nFBref (powered by StatsBomb data, where applicable)\n\nFBref provides high-quality, publicly accessible football statistics.\nDataScouteR uses these data as inputs but does not redistribute raw FBref datasets."
+    "text": "Data Source\nAll underlying match and event-level statistics are sourced from:\n\nFBref\n\nFBref provides high-quality, publicly accessible football statistics.\nDataScouteR uses these data as inputs but does not redistribute raw FBref datasets."
   },
   {
     "objectID": "index.html#methodology",

@@ -22,8 +22,8 @@ Currently supports **goalkeepers** and **forwards**.
 ## Installation
 
 ```r
-# install.packages("remotes")
-# remotes::install_github("machoude/DataScouteR")
+install.packages("remotes")
+remotes::install_github("machoude/DataScouteR", subdir = "DataScouteR")
 ```
 ---
 

@@ -11,7 +11,7 @@
     "href": "index.html#players",
     "title": "DataScouteR",
     "section": "Players",
-    "text": "Players\nlibrary(DataScouteR)\ngk &lt;- get_gk()\nhead(gk)\n\nfw &lt;- get_fw()\nhead(fw)"
+    "text": "Players\nlibrary(DataScouteR)\ngk &lt;- get_gk()\nhead(gk)\n\nmf &lt;- get_mf()\nhead(mf)\n\nfw &lt;- get_fw()\nhead(fw)"
   },
   {
     "objectID": "index.html#data-source",
@@ -39,6 +39,6 @@
     "href": "index.html#interpreting-the-metrics",
     "title": "DataScouteR",
     "section": "Interpreting the Metrics",
-    "text": "Interpreting the Metrics\nThe ratings in DataScouteR are scaled from 1 to 20 FM-style for easier comparison. A player’s score shows how well they performed this season, relative to other players in the dataset.\nFor example, if a goalkeeper has a 16 in ShotStopping while Alisson has 8, it does not mean the player is generally better than Alisson. It only indicates that, in the current season, this player performed better in shot-stopping relative to the other goalkeepers in the dataset.\nThis scale is designed for seasonal comparison, not historical ranking. High numbers mean above-average performance this year, while lower numbers indicate below-average performance for the same season."
+    "text": "Interpreting the Metrics\nThe ratings in DataScouteR are scaled from 1 to 20 FM-style for easier comparison. A player’s score shows how well they performed this season, relative to other players in the dataset.\nFor example, if a goalkeeper has a 16 in ShotStopping while Alisson has 8, it does not mean the player is generally better than Alisson. It only indicates that, in the current season, this player performed better in shot-stopping relative to the other goalkeepers in the dataset.\nAlso get_fw() and get_md() use similar metrics, the ratings are position-specific. A Scoring rating of 15 for a midfielder does not carry the same meaning as a 15 for a forward, since all scores are calculated relative to players in the same position group.\nThis scale is designed for seasonal comparison, not historical ranking. High numbers mean above-average performance this year, while lower numbers indicate below-average performance for the same season."
   }
 ]

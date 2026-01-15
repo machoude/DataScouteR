@@ -1,7 +1,7 @@
 Package: DataScouteR
 Type: Package
 Title: Football Player Scouting Metrics Scaled to 1–20
-Version: 0.2.0
+Version: 0.3.0
 Authors@R: c(
     person(
       "Marios", "Choudetsanakis",
@@ -10,7 +10,7 @@ Authors@R: c(
     )
   )
 Description: This package provides a 1-20 rating system for players 
-    across 9 leagues, weighted by Opta Power Rankings.
+    across 9 leagues,using real data from FBref and weighted by Opta Power Rankings.
 Imports: 
     dplyr,
     magrittr,

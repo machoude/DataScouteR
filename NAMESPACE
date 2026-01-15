@@ -3,4 +3,5 @@
 export(calculate_ratings)
 export(get_fw)
 export(get_gk)
+export(get_mf)
 importFrom(utils,data)

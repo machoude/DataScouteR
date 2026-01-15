@@ -4,7 +4,7 @@
 
 The package is designed to offer a clean, ready-to-use interface for analysts, researchers, and practitioners who want access to **processed scouting outputs**, without needing to run complex models themselves.
 
-Currently supports **goalkeepers** and **forwards**.
+Currently supports **goalkeepers**, **midfielders** and **forwards**.
 
 ---
 
@@ -38,6 +38,9 @@ Get the players by position :
 library(DataScouteR)
 gk <- get_gk()
 head(gk)
+
+mf <- get_mf()
+head(mf)
 
 fw <- get_fw()
 head(fw)
@@ -96,6 +99,9 @@ A player’s score shows how well they performed this season, relative to other 
 
 For example, if a goalkeeper has a 16 in ShotStopping while Alisson has 8, it does not mean the player is generally better than Alisson. 
 It only indicates that, in the current season, this player performed better in shot-stopping relative to the other goalkeepers in the dataset.
+
+Also get_fw() and get_md() use similar metrics, the ratings are position-specific.
+A Scoring rating of 15 for a midfielder does not carry the same meaning as a 15 for a forward, since all scores are calculated relative to players in the same position group.
 
 This scale is designed for seasonal comparison, not historical ranking. High numbers mean above-average performance this year, 
 while lower numbers indicate below-average performance for the same season.

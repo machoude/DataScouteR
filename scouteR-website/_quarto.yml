@@ -8,10 +8,12 @@ website:
     left:
       - text: "Guide"
         href: index.qmd
+      - text: "Attributes"
+        href: attributes.qmd
 
 format:
   html:
-    theme: darkly
+    theme: journal
     toc: true
     css: styles.css
 

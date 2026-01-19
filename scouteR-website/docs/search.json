@@ -1,43 +1,71 @@
 [
   {
+    "objectID": "attributes.html#goalkeepers",
+    "href": "attributes.html#goalkeepers",
+    "title": "Attributes",
+    "section": "Goalkeepers",
+    "text": "Goalkeepers\n\nShotStopping : Ability to prevent goals from shots on target through reflexes, positioning, and reach. This is the core goalkeeper skill. If this is bad, nothing else matters and everyone knows it.\nPassing : Quality and reliability of short and medium distribution with the feet. Reflects composure under pressure and ability to participate in buildup without setting traps for teammates.\nCrossStopping : Effectiveness in dealing with crosses and high balls into the box. Includes catching, punching, timing off the line, and decision-making under traffic.\nSweeper : Ability to read play, leave the box, and intercept through balls or clear danger behind a high defensive line. Measures anticipation, speed of decision, and bravery, not vibes."
+  },
+  {
+    "objectID": "attributes.html#defenders",
+    "href": "attributes.html#defenders",
+    "title": "Attributes",
+    "section": "Defenders",
+    "text": "Defenders\n\nCreativity : Ability to create chances from deep areas through vision, unexpected passes, or carrying the ball forward. For defenders, this means breaking lines, not pretending to be a number 10.\nPassing : Accuracy and consistency of short and medium passes used to maintain possession and build play from the back.\nAssisting : Direct contribution to goals via assists or assist-like actions. Rare for defenders, but valuable for those who overlap, take set pieces, or step into midfield.\nAttPassing : Quality of forward and line-breaking passes that advance the attack into dangerous zones. This separates “safe distributor” from “actually progressive defender.”\nAdvancedTouches : Frequency and effectiveness of touches in advanced areas (final third or box). For defenders, this reflects overlaps, underlaps, and set-piece involvement, not reckless wandering.\nDribbling : Ability to beat pressure with the ball, escape pressing, and carry possession forward. Crucial for modern center-backs and fullbacks who are asked to progress play under pressure.\nProgression : Combined ability to move the ball forward through carries and progressive passes. This is about territory gained, not just possession retained.\nShootAcc : Accuracy of shots taken. Low-volume for defenders, but important for those who arrive late in the box or threaten from distance and set pieces.\nScoring : Effectiveness in converting chances into goals, especially from headers, rebounds, or set plays. Think timing, positioning, and not panicking when the ball falls kindly.\nBlocking : Ability to block shots and passes through positioning, anticipation, and body control. This is defensive awareness made visible, not sliding for the cameras.\nTackling : Timing and success of defensive challenges to regain possession without fouling. Good tackling is boring, efficient, and deeply appreciated by coaches."
+  },
+  {
+    "objectID": "attributes.html#midfielders",
+    "href": "attributes.html#midfielders",
+    "title": "Attributes",
+    "section": "Midfielders",
+    "text": "Midfielders\n\nCreativity :Ability to generate chances through vision, imagination, and decision-making in tight spaces. For midfielders, this is about seeing options before they exist and choosing the least obvious one.\nPassing : Accuracy and reliability of short and medium passes used to circulate possession and control tempo. This is the baseline skill. Without it, everything else is noise.\nAssisting : Direct contribution to goals through assists and final balls. Reflects timing, awareness, and execution in the final third, not just spamming key passes.\nAttPassing : Quality of forward, line-breaking passes that move the ball into dangerous areas. This is how midfielders turn possession into threat instead of recycling it endlessly.\nAdvancedTouches : Frequency and effectiveness of touches in advanced areas, including the final third and penalty area. Indicates attacking involvement and positional intelligence, not goal-hanging.\nDribbling : Ability to beat opponents under pressure, carry the ball through midfield, and create numerical advantages. Essential for escaping presses and breaking defensive shape.\nProgression : Overall ability to advance play via progressive passes and carries. For midfielders, this is territorial responsibility. If this is low, the team goes sideways.\nShootAcc : Accuracy of shots taken from open play, often from range or late runs into the box. Midfielders don’t shoot often, so when they do, it should mean something.\nScoring : Efficiency in converting chances into goals, including long shots, rebounds, and box arrivals. Reflects timing, composure, and shot selection, not volume.\nBlocking : Ability to block shots and passing lanes through positioning and anticipation. For midfielders, this is defensive intelligence, not last-ditch heroics.\nTackling : Effectiveness and timing of challenges to regain possession. Good midfield tackling disrupts rhythm and kills transitions before they become problems."
+  },
+  {
+    "objectID": "attributes.html#forwards",
+    "href": "attributes.html#forwards",
+    "title": "Attributes",
+    "section": "Forwards",
+    "text": "Forwards\n\nCreativity : Ability to create chances for others through vision, movement, and improvisation in attacking areas. For forwards, this means making something happen when structure collapses.\nPassing : Quality and reliability of short passes and layoffs in tight spaces. Reflects link-up play, combination ability, and not killing attacks with sloppy touches.\nAssisting : Direct contribution to goals via assists or final balls. Indicates awareness of teammates, timing, and willingness to pass when shooting is the wrong choice.\nAttPassing : Quality of progressive and defense-splitting passes in the final third. Important for forwards who drop deep or operate between the lines.\nAdvancedTouches : Frequency and effectiveness of touches in the final third and penalty area. Measures attacking involvement, off-ball movement, and ability to arrive in dangerous zones.\nDribbling : Ability to beat defenders one-on-one, create separation, and destabilize defensive shape. Essential for wide forwards and isolation-heavy roles.\nProgression : Ability to move play forward through carries and passes under pressure. For forwards, this reflects ball-carrying threat rather than buildup responsibility.\nShootAcc : Accuracy of shots on target. Measures placement and shot selection, not volume. A forward who shoots often but inaccurately is just optimistic.\nScoring : Efficiency in converting chances into goals. This is finishing quality, composure, and timing. The attribute people pretend not to care about but absolutely do."
+  },
+  {
     "objectID": "index.html#installation",
     "href": "index.html#installation",
-    "title": "DataScouteR",
+    "title": "Library Guide",
     "section": "Installation",
     "text": "Installation\ninstall.packages(\"remotes\")\nremotes::install_github(\"machoude/DataScouteR\", subdir = \"DataScouteR\")"
   },
   {
     "objectID": "index.html#players",
     "href": "index.html#players",
-    "title": "DataScouteR",
+    "title": "Library Guide",
     "section": "Players",
-    "text": "Players\nlibrary(DataScouteR)\ngk &lt;- get_gk()\nhead(gk)\n\nmf &lt;- get_mf()\nhead(mf)\n\nfw &lt;- get_fw()\nhead(fw)"
+    "text": "Players\nlibrary(DataScouteR)\ngk &lt;- get_gk()\nhead(gk)\n\ndf &lt;- get_df()\nhead(df)\n\nmf &lt;- get_mf()\nhead(mf)\n\nfw &lt;- get_fw()\nhead(fw)"
   },
   {
     "objectID": "index.html#data-source",
     "href": "index.html#data-source",
-    "title": "DataScouteR",
+    "title": "Library Guide",
     "section": "Data Source",
     "text": "Data Source\nAll underlying match and event-level statistics are sourced from:\n\nFBref\n\nFBref provides high-quality, publicly accessible football statistics.\nDataScouteR uses these data as inputs but does not redistribute raw FBref datasets."
   },
   {
     "objectID": "index.html#methodology",
     "href": "index.html#methodology",
-    "title": "DataScouteR",
+    "title": "Library Guide",
     "section": "Methodology",
     "text": "Methodology\nThe workflow behind the package follows these principles:\n\nPlayer performance metrics are modeled using z-scores and logistic mapping\nPlayer-level effects are filtered to reduce noise from small samples\nLeague-level effects are included to implicitly account for competition strength\nFinal latent ability estimates are transformed to a 1–20 scale using a smooth, monotonic mapping\n\nThis scaling is not intended to replicate Football Manager internally, but rather to:\n\nProvide a familiar reference frame\nImprove interpretability for practitioners"
   },
   {
     "objectID": "index.html#why-a-120-scale",
     "href": "index.html#why-a-120-scale",
-    "title": "DataScouteR",
+    "title": "Library Guide",
     "section": "Why a 1–20 Scale?",
     "text": "Why a 1–20 Scale?\nThe 1–20 scale:\n\nPreserves relative differences between players\nCompresses extreme values smoothly\nAllows quick qualitative interpretation (e.g. elite, above average, poor)\n\nThis makes the results more accessible for:\n\nScouting discussions\nPlayer profiling\nComparative analysis across leagues"
   },
   {
     "objectID": "index.html#interpreting-the-metrics",
     "href": "index.html#interpreting-the-metrics",
-    "title": "DataScouteR",
+    "title": "Library Guide",
     "section": "Interpreting the Metrics",
     "text": "Interpreting the Metrics\nThe ratings in DataScouteR are scaled from 1 to 20 FM-style for easier comparison. A player’s score shows how well they performed this season, relative to other players in the dataset.\nFor example, if a goalkeeper has a 16 in ShotStopping while Alisson has 8, it does not mean the player is generally better than Alisson. It only indicates that, in the current season, this player performed better in shot-stopping relative to the other goalkeepers in the dataset.\nAlso get_fw() and get_md() use similar metrics, the ratings are position-specific. A Scoring rating of 15 for a midfielder does not carry the same meaning as a 15 for a forward, since all scores are calculated relative to players in the same position group.\nThis scale is designed for seasonal comparison, not historical ranking. High numbers mean above-average performance this year, while lower numbers indicate below-average performance for the same season."
   }

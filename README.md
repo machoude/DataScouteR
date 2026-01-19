@@ -4,8 +4,6 @@
 
 The package is designed to offer a clean, ready-to-use interface for analysts, researchers, and practitioners who want access to **processed scouting outputs**, without needing to run complex models themselves.
 
-Currently supports **goalkeepers**, **midfielders** and **forwards**.
-
 ---
 
 ## Overview

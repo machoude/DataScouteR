@@ -1,7 +1,7 @@
 Package: DataScouteR
 Type: Package
 Title: Football Player Scouting Metrics Scaled to 1–20
-Version: 0.3.0
+Version: 0.4.0
 Authors@R: c(
     person(
       "Marios", "Choudetsanakis",

@@ -37,6 +37,9 @@ library(DataScouteR)
 gk <- get_gk()
 head(gk)
 
+df <- get_df()
+head(df)
+
 mf <- get_mf()
 head(mf)
 

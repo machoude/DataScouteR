@@ -6,7 +6,7 @@ website:
   title: "DataScouteR"
   navbar:
     left:
-      - text: "Guide"
+      - text: "Description"
         href: index.qmd
       - text: "Attributes"
         href: attributes.qmd

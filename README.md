@@ -19,6 +19,7 @@ The emphasis is on **interpretability, robustness, and comparability across leag
 The goal of the package is to find the players that performing better than the rest of the 
 players of the same position.
 
+For more information click here: https://machoude.github.io/DataScouteR/
 ---
 
 ## Installation
@@ -26,25 +27,12 @@ players of the same position.
 You can install the package directly from GitHub:
 
 ```r
+# Install remotes in case you don't have it
 install.packages("remotes")
 remotes::install_github("machoude/DataScouteR", subdir = "DataScouteR")
-```
 
-Get the players by position :
-
-```r
+# Load the library
 library(DataScouteR)
-gk <- get_gk()
-head(gk)
-
-df <- get_df()
-head(df)
-
-mf <- get_mf()
-head(mf)
-
-fw <- get_fw()
-head(fw)
 ```
 
 ---

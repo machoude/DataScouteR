@@ -1,5 +1,5 @@
 ---
-title: "Library Guide"
+title: "Description"
 format: html
 ---
 
@@ -20,15 +20,18 @@ The package is designed to offer a clean, ready-to-use interface for analysts, r
 ## Installation
 
 ```r
+# Install remotes in case you don't have it
 install.packages("remotes")
 remotes::install_github("machoude/DataScouteR", subdir = "DataScouteR")
+
+# Load the library
+library(DataScouteR)
 ```
 ---
 
 ## Players
 
 ```r
-library(DataScouteR)
 gk <- get_gk()
 head(gk)
 

@@ -20,6 +20,7 @@ The goal of the package is to find the players that performing better than the r
 players of the same position.
 
 For more information click here: https://machoude.github.io/DataScouteR/
+
 ---
 
 ## Installation

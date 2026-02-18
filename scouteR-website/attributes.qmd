@@ -21,7 +21,7 @@ format: html
 
 - ShortPassing : Accuracy and consistency of short and medium passes used to maintain possession and build play from the back.
 
-- LongPassing :
+- LongPassing : 
 
 - Assisting : Direct contribution to goals via assists or assist-like actions. Rare for defenders, but valuable for those who overlap, take set pieces, or step into midfield.
 

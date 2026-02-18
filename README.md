@@ -30,7 +30,7 @@ You can install the package directly from GitHub:
 ```r
 # Install remotes in case you don't have it
 install.packages("remotes")
-remotes::install_github("machoude/DataScouteR", subdir = "DataScouteR")
+remotes::install_github("machoude/DataScouteR")
 
 # Load the library
 library(DataScouteR)

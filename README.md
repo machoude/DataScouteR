@@ -38,17 +38,6 @@ library(DataScouteR)
 
 ---
 
-## Data Source
-
-All underlying match and event-level statistics are sourced from:
-
-- **FBref** (powered by StatsBomb data, where applicable)
-
-FBref provides high-quality, publicly accessible football statistics.  
-`DataScouteR` uses these data as inputs but **does not redistribute raw FBref datasets**.
-
----
-
 ## Methodology
 
 The workflow behind the package follows these principles:

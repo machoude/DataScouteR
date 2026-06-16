@@ -35,11 +35,17 @@ library(DataScouteR)
 gk <- get_gk()
 head(gk)
 
-df <- get_df()
-head(df)
+dc <- get_dc()
+head(dc)
 
-mf <- get_mf()
-head(mf)
+wb <- get_wb()
+head(wb)
+
+cm <- get_cm()
+head(cm)
+
+w <- get_w()
+head(w)
 
 fw <- get_fw()
 head(fw)

@@ -6,7 +6,7 @@
 #' @return A data frame with defender performance metrics.
 #' @importFrom utils data
 #' @export
-get_df <- function() {
-  data("df", package = "DataScouteR")
+get_dc <- function() {
+  data("dc", package = "DataScouteR")
   df
 }

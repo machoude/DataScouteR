@@ -8,5 +8,5 @@
 #' @export
 get_dc <- function() {
   data("dc", package = "DataScouteR")
-  df
+  dc
 }

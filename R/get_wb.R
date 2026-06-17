@@ -8,5 +8,5 @@
 #' @export
 get_wb <- function() {
   data("wb", package = "DataScouteR")
-  gk
+  wb
 }

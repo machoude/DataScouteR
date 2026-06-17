@@ -8,5 +8,5 @@
 #' @export
 get_cm <- function() {
   data("cm", package = "DataScouteR")
-  mf
+  cm
 }

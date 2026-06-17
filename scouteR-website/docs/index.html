@@ -195,7 +195,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="installation">Installation</h2>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Install remotes in case you don't have it</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"remotes"</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"machoude/DataScouteR"</span>, <span class="at">subdir =</span> <span class="st">"DataScouteR"</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>remotes<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"machoude/DataScouteR"</span>)</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the library</span></span>
 <span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(DataScouteR)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
@@ -226,10 +226,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
 <p>The workflow behind the package follows these principles:</p>
 <ul>
-<li>Player performance metrics are modeled using <strong>z-scores and logistic mapping</strong></li>
 <li><strong>Player-level effects</strong> are filtered to reduce noise from small samples</li>
 <li><strong>League-level effects</strong> are included to implicitly account for competition strength</li>
-<li>Final latent ability estimates are transformed to a <strong>1–20 scale</strong> using a smooth, monotonic mapping</li>
 </ul>
 <p>This scaling is <strong>not intended to replicate Football Manager internally</strong>, but rather to:</p>
 <ul>

@@ -22,7 +22,7 @@ The package is designed to offer a clean, ready-to-use interface for analysts, r
 ```r
 # Install remotes in case you don't have it
 install.packages("remotes")
-remotes::install_github("machoude/DataScouteR", subdir = "DataScouteR")
+remotes::install_github("machoude/DataScouteR")
 
 # Load the library
 library(DataScouteR)
@@ -57,10 +57,8 @@ head(fw)
 
 The workflow behind the package follows these principles:
 
-- Player performance metrics are modeled using **z-scores and logistic mapping**
 - **Player-level effects** are filtered to reduce noise from small samples
 - **League-level effects** are included to implicitly account for competition strength
-- Final latent ability estimates are transformed to a **1–20 scale** using a smooth, monotonic mapping
 
 This scaling is **not intended to replicate Football Manager internally**, but rather to:
 

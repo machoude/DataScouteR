@@ -39,7 +39,7 @@
     "href": "index.html#installation",
     "title": "Description",
     "section": "Installation",
-    "text": "Installation\n# Install remotes in case you don't have it\ninstall.packages(\"remotes\")\nremotes::install_github(\"machoude/DataScouteR\", subdir = \"DataScouteR\")\n\n# Load the library\nlibrary(DataScouteR)"
+    "text": "Installation\n# Install remotes in case you don't have it\ninstall.packages(\"remotes\")\nremotes::install_github(\"machoude/DataScouteR\")\n\n# Load the library\nlibrary(DataScouteR)"
   },
   {
     "objectID": "index.html#players",
@@ -53,7 +53,7 @@
     "href": "index.html#methodology",
     "title": "Description",
     "section": "Methodology",
-    "text": "Methodology\nThe workflow behind the package follows these principles:\n\nPlayer performance metrics are modeled using z-scores and logistic mapping\nPlayer-level effects are filtered to reduce noise from small samples\nLeague-level effects are included to implicitly account for competition strength\nFinal latent ability estimates are transformed to a 1–20 scale using a smooth, monotonic mapping\n\nThis scaling is not intended to replicate Football Manager internally, but rather to:\n\nProvide a familiar reference frame\nImprove interpretability for practitioners"
+    "text": "Methodology\nThe workflow behind the package follows these principles:\n\nPlayer-level effects are filtered to reduce noise from small samples\nLeague-level effects are included to implicitly account for competition strength\n\nThis scaling is not intended to replicate Football Manager internally, but rather to:\n\nProvide a familiar reference frame\nImprove interpretability for practitioners"
   },
   {
     "objectID": "index.html#why-a-120-scale",

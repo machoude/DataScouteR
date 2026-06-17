@@ -8,3 +8,11 @@ inst/doc
 
 /.quarto/
 **/*.quarto_ipynb
+
+# Raw development data
+data-raw/
+
+# renv local libraries (keeps your repo light)
+renv/library/
+renv/staging/
+renv/sandbox/

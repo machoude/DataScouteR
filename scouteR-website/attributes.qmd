@@ -5,110 +5,136 @@ format: html
 
 ---
 
+::: {.panel-tabset}
+
 ## Goalkeepers
 
-- ShotStopping 
+* **ShotStopping:** The ability to prevent goals from shots on target through sharp reflexes, positioning, and reach.
 
-- Passing 
+* **Passing:** The quality and reliability of short and medium distribution with the feet to safely participate in team buildup play.
 
-- LongBalls 
+* **LongBalls:** The accuracy and distance of direct, long-range distributions and clearances aimed at turning over territory.
 
-- CrossStopping
+* **CrossStopping:** Effectiveness in dealing with crosses and high balls into the box through catching, punching, and decisive movement.
 
-- Sweeping
+* **Sweeping:** The ability to read the play, leave the penalty box, and intercept through balls or clear danger behind a high defensive line.
 
 ## Wing Backs
 
-- Scoring
+* **Scoring:** Efficiency in converting attacking chances, back-post runs, or loose balls into actual goals.
 
-- ShotAcc
+* **ShotAcc:** The accuracy of shots taken, measuring precision and disciplined shot selection over raw shot volume.
 
-- Passing
+* **Passing:** The accuracy and consistency of short and medium passes used to maintain possession and recycle play out wide.
 
-- Progression
+* **Progression:** The overall ability to advance play down the flanks via progressive passes and line-breaking carries.
 
-- Creativity
+* **Creativity:** The ability to generate scoring chances from wide or deep areas through vision, overlapping runs, or clever interchanges.
 
-- Assisting
+* **Assisting:** Direct contribution to goals via final balls, cutbacks, or standard assists.
 
-- Crossing
+* **Crossing:** The quality, shape, and precision of aerial or low balls delivered into the opposition penalty area from wide zones.
 
-- Dribbling
+* **Dribbling:** The ability to beat defensive pressure, win individual wide duels, and safely carry possession forward.
 
-- Tackling
+* **Tackling:** The timing and success of defensive challenges to cleanly win the ball without committing wide fouls.
 
-- Blocking
+* **Blocking:** The ability to block crosses, shots, and passing lanes through proactive positioning and body control.
 
-- Heading
+* **Heading:** Success and effectiveness in aerial duels, both defensively at the back post and offensively during transitions.
 
-- Pressing
+* **Pressing:** The frequency and intensity of defensive actions meant to disrupt the opponent's build-up high up the flank.
 
-## Central Defenders 
+## Central Defenders
 
-- Shooting
+* **Shooting:** The overall threat and accuracy of shots taken, typically from deep positions, set plays, or late arrivals.
 
-- Passing
+* **Passing:** The basic accuracy and consistency of passes used to securely maintain possession across the defensive line.
 
-- Progression
+* **Progression:** The combined ability to carry the ball forward or execute progressive vertical passes into the midfield.
 
-- Creativity
+* **Creativity:** The ability to split open defensive blocks from deep areas through vision or unexpected line-breaking passes.
 
-- Assisting
+* **Assisting:** Direct contribution to goals via long-range assists, set-piece headers, or key deep playmaking actions.
 
-- Crossing
+* **Crossing:** The execution of long, sweeping switches of play to isolated fullbacks or wingers on the opposite flank.
 
-- Tackling
+* **Tackling:** The timing, cleanliness, and success rate of defensive challenges to stop attackers without conceding central fouls.
 
-- Blocking
+* **Blocking:** The ability to block central shots and intercept forward passing lanes through high spatial anticipation.
 
-- Heading
+* **Heading:** Dominance and success rate in structural aerial duels, crucial for clearing standard crosses and controlling set pieces.
 
 ## Midfielders
 
-- Scoring
+* **Scoring:** Efficiency in converting midfield chances, long-range efforts, or calculated box-arrivals into goals.
 
-- ShotAcc
+* **ShotAcc:** The accuracy of open-play shots, maximizing the efficiency of long-range attempts or late runs.
 
-- Passing
+* **Passing:** The accuracy and reliability of short and medium passes used to cleanly circulate possession and dictate game tempo.
 
-- LongBalls
+* **LongBalls:** The accuracy and vision required to execute long-range switches that flip the point of attack or launch deep transitions.
 
-- Progression
+* **Progression:** The overall capacity to move the ball forward into the opponent's territory via progressive passes and central carries.
 
-- Creativity
+* **Creativity:** The ability to generate goal-scoring chances through vision, imagination, and clever decision-making in tight spaces.
 
-- Assisting
+* **Assisting:** Direct contribution to goals through precise final passes, tracking timing and execution in the final third.
 
-- Crossing
+* **Crossing:** The quality and accuracy of deliveries into the penalty box when drifting into wide spaces or taking set-pieces.
 
-- Dribbling
+* **Dribbling:** The ability to beat opponents under pressure, carry the ball smoothly through midfield, and break defensive shapes.
 
-- Tackling
+* **Tackling:** The effectiveness and timing of challenges to disrupt the opponent's rhythm and kill transitions early.
 
-- Blocking
+* **Blocking:** The ability to cut off central passing lanes and shield the defense through smart positioning and anticipation.
 
-- Pressing
+* **Pressing:** The work rate and efficiency displayed when closing down opponents to disrupt their possession and force turnovers.
+
+## Wingers
+
+* **Scoring:** Goal-scoring threat when cutting inside or making back-post runs into the penalty box.
+
+* **ShotAcc:** Accuracy and target hit rates of shots taken from wide channels or inverted attacking angles.
+
+* **Passing:** Link-up capability and short combinational passing accuracy in final-third overloads.
+
+* **LongBalls:** The execution of long switches or cross-field distributions when dropping deep to link up the team's play.
+
+* **Progression:** Dynamic spatial advancement achieved through progressive runs, carries, and direct take-ons.
+
+* **Creativity:** Ability to unlock defenses with disguised passes, clever returns, or intelligent movement.
+
+* **Assisting:** Creative productivity in providing high-value key passes and direct goal setups.
+
+* **Crossing:** Delivery precision from wide positions via driven low crosses, whipped balls, or floated cutbacks.
+
+* **Dribbling:** Proficiency in isolated one-on-one scenarios, shifting speeds, and bypassing fullbacks.
+
+* **Pressing:** Flank defensive work-rate, locking down opposing fullbacks and forcing errors high up the pitch.
 
 ## Forwards
 
-- Scoring
+* **Scoring:** Efficiency and composure in front of goal to consistently convert attacking opportunities into actual goals.
 
-- ShotAcc
+* **ShotAcc:** The accuracy of shots on target, measuring placement and disciplined shot selection over raw volume.
 
-- LongBalls
+* **LongBalls:** The execution of long switches or cross-field distributions when dropping deep to link up the team's play.
 
-- Passing
+* **Passing:** The quality and reliability of short passes, lay-offs, and quick combinations in highly congested attacking spaces.
 
-- Progression
+* **Progression:** The ability to move play forward under pressure, primarily reflecting ball-carrying threat rather than build-up duties.
 
-- Creativity
+* **Creativity:** The ability to create scoring opportunities for others through vision, movement, and improvisation in the attacking third.
 
-- Assisting
+* **Assisting:** Direct contribution to goals via assists, showing spatial awareness and choosing to pass when shooting is suboptimal.
 
-- Crossing
+* **Crossing:** The accuracy of deliveries or low cutbacks sent into the box from the channels or wide attacking areas.
 
-- Dribbling
+* **Dribbling:** The ability to beat central or wide defenders one-on-one, create immediate separation, and destabilize shapes.
 
-- Heading
+* **Heading:** Efficiency in winning aerial duels in the final third to secure long balls, knock down layoffs, or score headers.
 
-- Pressing
+* **Pressing:** The intensity and tactical discipline shown when leading the first line of defense to disrupt the opponent's build-up.
+
+:::

@@ -34,6 +34,30 @@ remotes::install_github("machoude/DataScouteR")
 
 # Load the library
 library(DataScouteR)
+
+# Goalkeepers
+gk <- get_gk()
+head(gk)
+
+# Central Defenders
+dc <- get_dc()
+head(dc)
+
+# Wing Backs
+wb <- get_wb()
+head(wb)
+
+# Central Midfielders
+cm <- get_cm()
+head(cm)
+
+# Wingers
+w <- get_w()
+head(w)
+
+# Center Forwards
+fw <- get_fw()
+head(fw)
 ```
 
 ---

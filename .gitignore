@@ -11,6 +11,7 @@ inst/doc
 
 # Raw development data
 data-raw/
+25_26
 
 # renv local libraries (keeps your repo light)
 renv/library/

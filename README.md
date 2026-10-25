@@ -1,8 +1,8 @@
 <!-- badges: start -->
-[![GitHub release](https://img.shields.io/github/v/release/USERNAME/REPO)](https://github.com/USERNAME/REPO/releases)
-[![GitHub downloads](https://img.shields.io/github/downloads/USERNAME/REPO/total)](https://github.com/USERNAME/REPO/releases)
-[![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO)](https://github.com/USERNAME/REPO)
-[![R-CMD-check](https://github.com/USERNAME/REPO/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/USERNAME/REPO/actions)
+[![GitHub release](https://img.shields.io/github/v/release/machoude/DataScouter)](https://github.com/machoude/DataScouter/releases)
+[![GitHub downloads](https://img.shields.io/github/downloads/machoude/DataScouter/total)](https://github.com/machoude/DataScouter/releases)
+[![GitHub stars](https://img.shields.io/github/stars/machoude/DataScouter)](https://github.com/machoude/DataScouter)
+[![R-CMD-check](https://github.com/machoude/DataScouter/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/machoude/DataScouter/actions)
 <!-- badges: end -->
 
 # DataScouteR <img src="man/figures/logo.png" align="right" height="139" />

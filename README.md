@@ -1,3 +1,10 @@
+<!-- badges: start -->
+[![GitHub release](https://img.shields.io/github/v/release/USERNAME/REPO)](https://github.com/USERNAME/REPO/releases)
+[![GitHub downloads](https://img.shields.io/github/downloads/USERNAME/REPO/total)](https://github.com/USERNAME/REPO/releases)
+[![GitHub stars](https://img.shields.io/github/stars/USERNAME/REPO)](https://github.com/USERNAME/REPO)
+[![R-CMD-check](https://github.com/USERNAME/REPO/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/USERNAME/REPO/actions)
+<!-- badges: end -->
+
 # DataScouteR <img src="man/figures/logo.png" align="right" height="139" />
 
 **DataScouteR** is an R package for football scouting and player evaluation, providing **league-adjusted, position-specific ratings** derived from publicly available data and scaled for **intuitive interpretation**.

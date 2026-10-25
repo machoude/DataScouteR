@@ -1,9 +1,3 @@
-<!-- badges: start -->
-[![GitHub release](https://img.shields.io/github/v/release/machoude/DataScouter)](https://github.com/machoude/DataScouter/releases)
-[![GitHub downloads](https://img.shields.io/github/downloads/machoude/DataScouter/total)](https://github.com/machoude/DataScouter/releases)
-[![GitHub stars](https://img.shields.io/github/stars/machoude/DataScouter)](https://github.com/machoude/DataScouter)
-[![R-CMD-check](https://github.com/machoude/DataScouter/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/machoude/DataScouter/actions)
-<!-- badges: end -->
 
 # DataScouteR <img src="man/figures/logo.png" align="right" height="139" />
 
